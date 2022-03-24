@@ -16,6 +16,7 @@ td4.style.color= "red";
 td4.style.cursor="pointer";
 td4.addEventListener("click",function(){
      markCompletedFunction(el);
+     td4.style.color="green";
 })
 tr.append(td1,td2,td3,td4);
 document.querySelector("tbody").append(tr);
