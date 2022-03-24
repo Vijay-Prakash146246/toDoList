@@ -1,6 +1,6 @@
 var todoItems = JSON.parse(localStorage.getItem("todoData"));
  //console.log(todoItems);
- var completed=JSON.parse(localStorage.getItem("completed"))||[];
+ var completed=JSON.parse(localStorage.getItem("completedToDo"))||[];
 todoItems.map(function(el,i,arr){
 // console.log(el.name);
 var tr = document.createElement("tr");
